@@ -1,0 +1,48 @@
+{
+  "connection": "default",
+  "collectionName": "events",
+  "info": {
+    "name": "events",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "start": {
+      "default": "",
+      "type": "date",
+      "required": true
+    },
+    "end": {
+      "default": "",
+      "type": "date"
+    },
+    "category": {
+      "default": "In House Meetings",
+      "type": "enumeration",
+      "enum": [
+        "In House Meetings",
+        "Site Visits",
+        "NOFO Release Date",
+        " NOFO Close Date",
+        "Grant start dates",
+        "Federal application or award acceptance due date",
+        "Federal reporting due dates",
+        "Budget Committee dates",
+        "OFM Grantee Audits",
+        "ICJIA General"
+      ]
+    },
+    "description": {
+      "default": "",
+      "type": "text",
+      "required": true
+    }
+  }
+}
