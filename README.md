@@ -1,3 +1,7 @@
-# icjia-api
+# ICJIA Strapi API
 
-A quick description of icjia-api.
+> API used for ICJIA's internal calendar
+
+## Notes
+
+
